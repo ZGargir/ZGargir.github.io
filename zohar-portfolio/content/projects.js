@@ -54,11 +54,18 @@ const projects = [
     summary: "An arcade survival game inspired by Bubble Trouble and Pang.",
     description: `Sample project description. Replace this with your own description of the game and your programming and gameplay work.`,
     cover: "assets/bubble-freezer/cover.jpg",
-    previewVideo: "assets/bubble-freezer/preview.mp4",
-    previewGif: "assets/bubble-freezer/preview.gif",
+    previewVideo: "assets/bubble-freezer/Preview.mp4",
+    //previewGif: "assets/bubble-freezer/preview.gif",
     gallery: [
-      { src: "assets/bubble-freezer/01.jpg", caption: "Optional screenshot caption." },
-      { src: "assets/bubble-freezer/02.jpg", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (1).jpg  ", caption: "Optional screenshot caption." },
+      { src: "assets/bubble-freezer/Screenshot (2).jpg  ", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (3).jpg  ", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (4).jpg  ", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (5).jpg  ", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (6).jpg  ", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (7).jpg  ", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (8).jpg  ", caption: "Optional screenshot caption." }
+      { src: "assets/bubble-freezer/Screenshot (9).jpg  ", caption: "Optional screenshot caption." }
     ],
     video: "",
     links: []
