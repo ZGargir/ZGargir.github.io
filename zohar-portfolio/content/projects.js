@@ -1,0 +1,117 @@
+/*
+  EDIT PROJECTS HERE.
+  Reorder the objects in this array to reorder projects on the site.
+
+  Asset paths are relative to index.html.
+  For hover previews, use a short MP4 when possible. A GIF can be used as
+  the fallback preview instead. Animated media is only loaded on hover.
+*/
+
+const projects = [
+  {
+    id: "moduwar",
+    title: "MODUWAR",
+    meta: "UNITY · C# · RTS · EARLY ACCESS",
+    year: "",
+    summary: "Unity development within an existing production codebase for an Early Access RTS.",
+    description: `Sample project description. Replace this with your own description of the project and your work on it. Keep the text focused on what you actually contributed and what is useful for someone looking at your portfolio.`,
+    cover: "assets/moduwar/cover.jpg",
+    previewVideo: "assets/moduwar/preview.mp4",
+    previewGif: "assets/moduwar/preview.gif",
+    gallery: [
+      { src: "assets/moduwar/01.jpg", caption: "Optional screenshot caption." },
+      { src: "assets/moduwar/02.jpg", caption: "Optional screenshot caption." }
+    ],
+    video: "",
+    links: [
+      { label: "STEAM", url: "" }
+    ]
+  },
+  {
+    id: "spawnstorm",
+    title: "SPAWNSTORM",
+    meta: "UNITY · 2D RTS · TOWER DEFENSE",
+    year: "2025",
+    summary: "A two-person 2D RTS / tower-defense project built as an Open University final project.",
+    description: `Sample project description. Replace this with your own description, including your responsibilities, the two-person team, and any technical or design details you want visitors to know.`,
+    cover: "assets/spawnstorm/cover.jpg",
+    previewVideo: "assets/spawnstorm/preview.mp4",
+    previewGif: "assets/spawnstorm/preview.gif",
+    gallery: [
+      { src: "assets/spawnstorm/01.jpg", caption: "Optional screenshot caption." },
+      { src: "assets/spawnstorm/02.jpg", caption: "Optional screenshot caption." }
+    ],
+    video: "",
+    links: [
+      { label: "ITCH.IO", url: "" }
+    ]
+  },
+  {
+    id: "bubble-freezer",
+    title: "BUBBLE FREEZER",
+    meta: "S&BOX · ARCADE SURVIVAL",
+    year: "2026",
+    summary: "An arcade survival game inspired by Bubble Trouble and Pang.",
+    description: `Sample project description. Replace this with your own description of the game and your programming and gameplay work.`,
+    cover: "assets/bubble-freezer/cover.jpg",
+    previewVideo: "assets/bubble-freezer/preview.mp4",
+    previewGif: "assets/bubble-freezer/preview.gif",
+    gallery: [
+      { src: "assets/bubble-freezer/01.jpg", caption: "Optional screenshot caption." },
+      { src: "assets/bubble-freezer/02.jpg", caption: "Optional screenshot caption." }
+    ],
+    video: "",
+    links: []
+  },
+  {
+    id: "hot-potato",
+    title: "HOT POTATO",
+    meta: "UNITY · GRID PUZZLE",
+    year: "2026",
+    summary: "A grid-based puzzle game about routing a potato through chefs and obstacles.",
+    description: `Sample project description. Replace this with your own description and explain your gameplay programming and implementation work. Credit collaborators here if you want them visible in the project description.`,
+    cover: "assets/hot-potato/cover.jpg",
+    previewVideo: "assets/hot-potato/preview.mp4",
+    previewGif: "assets/hot-potato/preview.gif",
+    gallery: [
+      { src: "assets/hot-potato/01.jpg", caption: "Optional screenshot caption." },
+      { src: "assets/hot-potato/02.jpg", caption: "Optional screenshot caption." }
+    ],
+    video: "",
+    links: []
+  },
+  {
+    id: "cycle",
+    title: "CYCLE",
+    meta: "UNITY · TURN-BASED · CARD STRATEGY",
+    year: "2025",
+    summary: "A turn-based card strategy game inspired by Canaanite mythology.",
+    description: `Sample project description. Replace this with your own description of the project and your programming and gameplay work.`,
+    cover: "assets/cycle/cover.jpg",
+    previewVideo: "assets/cycle/preview.mp4",
+    previewGif: "assets/cycle/preview.gif",
+    gallery: [
+      { src: "assets/cycle/01.jpg", caption: "Optional screenshot caption." },
+      { src: "assets/cycle/02.jpg", caption: "Optional screenshot caption." }
+    ],
+    video: "",
+    links: []
+  },
+  {
+    id: "rpg-combat",
+    title: "RPG COMBAT",
+    meta: "UNITY · ONLINE MULTIPLAYER · RPG",
+    year: "2023",
+    summary: "An online multiplayer turn-based RPG prototype focused on combat and character systems.",
+    description: `Sample project description. Replace this with your own description of the combat systems, character systems, gameplay programming, and AppWarp multiplayer implementation.`,
+    cover: "assets/rpg-combat/cover.jpg",
+    previewVideo: "assets/rpg-combat/preview.mp4",
+    previewGif: "assets/rpg-combat/preview.gif",
+    gallery: [
+      { src: "assets/rpg-combat/01.jpg", caption: "Optional screenshot caption." },
+      { src: "assets/rpg-combat/02.jpg", caption: "Optional screenshot caption." }
+    ],
+    video: "",
+    links: []
+  }
+];

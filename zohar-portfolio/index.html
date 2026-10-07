@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zohar Gargir, game developer. A portfolio of games, gameplay systems, and development work.">
+  <title>Zohar Gargir | Game Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Zohar Gargir home">ZG</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+
+    <div class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO</p>
+        <h1>ZOHAR GARGIR</h1>
+        <p class="hero-title">GAME DEVELOPER</p>
+      </div>
+      <a class="hero-link" href="#about" aria-label="Scroll to about section">PROJECTS <span>↓</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-light" id="about">
+      <div class="container narrow">
+        <p class="section-label">01 / ABOUT</p>
+        <div class="about-copy">
+          <p>Game developer, primarily (but not exclusively) focused on Unity.</p>
+          <p>Long afflicted by a fascination with games as a creative medium, a condition which, after some years, seemed easier to indulge than to cure.</p>
+          <p>My background also includes a few years in a high-stakes, disciplined environment which unfortunately didn't involve a keyboard.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">02 / PROJECTS</p>
+          <p class="section-note">Selected work</p>
+        </div>
+        <div class="projects-list" id="projects-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="experience">
+      <div class="container">
+        <p class="section-label">03 / EXPERIENCE</p>
+        <div class="experience-list">
+          <article class="experience-item reveal">
+            <div class="experience-date">2026–PRESENT</div>
+            <div>
+              <h2>GAME DEVELOPER</h2>
+              <p class="experience-org">Biohex Studios</p>
+              <p>Unity development within an existing production codebase for an Early Access RTS.</p>
+            </div>
+          </article>
+          <article class="experience-item reveal">
+            <div class="experience-date">2026–PRESENT</div>
+            <div>
+              <h2>TEACHING ASSISTANT</h2>
+              <p class="experience-org">The Open University of Israel</p>
+              <p>Assisting students with Unity development, programming, and game projects.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark contact-section" id="contact">
+      <div class="container">
+        <p class="section-label">04 / CONTACT</p>
+        <div class="contact-content">
+          <a class="email-link" href="mailto:your@email.com">your@email.com</a>
+          <div class="social-links" aria-label="Social profiles">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+            <a href="https://itch.io/" target="_blank" rel="noreferrer" aria-label="Itch.io">it</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project details">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close project">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="content/projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
