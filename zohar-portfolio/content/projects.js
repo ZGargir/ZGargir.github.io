@@ -13,7 +13,7 @@ const projects = [
     title: "MODUWAR",
     meta: "UNITY · C# · RTS · EARLY ACCESS",
     year: "",
-    summary: "Unity development within an existing production codebase for an Early Access RTS.",
+    summary: "An adaptive RTS where you control a one-organism army, which I got to work on as a Unity/C# developer.",
     description: ``,
     cover: "assets/moduwar/cover.jpg",
     previewVideo: "assets/moduwar/preview.mp4",
@@ -24,13 +24,13 @@ const projects = [
     ],
     video: "",
     links: [
-      { label: "STEAM", url: "" }
+      { label: "STEAM", url: "https://store.steampowered.com/app/923100/Moduwar/" }
     ]
   },
   {
     id: "spawnstorm",
     title: "SPAWNSTORM",
-    meta: "UNITY · 2D RTS · TOWER DEFENSE",
+    meta: "UNITY · 2D RTS · CUSTOMIZATION",
     year: "2025",
     summary: "A two-person 2D RTS / tower-defense project built as an Open University final project.",
     description: `Sample project description. Replace this with your own description, including your responsibilities, the two-person team, and any technical or design details you want visitors to know.`,
@@ -43,7 +43,7 @@ const projects = [
     ],
     video: "",
     links: [
-      { label: "ITCH.IO", url: "" }
+      { label: "ITCH.IO", url: "https://jumper-cables.itch.io/spawnstorm" }
     ]
   },
   
@@ -53,7 +53,7 @@ const projects = [
     meta: "S&BOX · ARCADE SURVIVAL",
     year: "2026",
     summary: "An arcade survival game inspired by Bubble Trouble and Pang.",
-    description: `Me jumping on the roguelike trend. A short roguelike inspired by Bubble Trouble and Pang, where you control a snowman who must shoot projectiles to pop bouncing, splitting bubbles, leveling up and picking from a selection of perks to get stronger each run.
+    description: `Me jumping on the roguelike trend. A tiny arcade shooter inspired by Bubble Trouble and Pang, where you control a snowman who must shoot projectiles to pop bouncing, splitting bubbles, leveling up and picking from a selection of perks to get stronger each run.
 
 It was fun working within such tight constraints and scope, pushing against them with perks as far as I could without things spiraling out of hand.
 
