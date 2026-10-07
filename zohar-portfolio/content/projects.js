@@ -36,8 +36,10 @@ Among my contributions were designing and implementing a dynamic Map Bounds syst
     title: "SPAWNSTORM",
     meta: "UNITY · 2D RTS · CUSTOMIZATION",
     year: "2025",
-    summary: "A two-person 2D RTS / tower-defense project built as an Open University final project.",
-    description: `Sample project description. Replace this with your own description, including your responsibilities, the two-person team, and any technical or design details you want visitors to know.`,
+    summary: "A fast-paced, one-lane RTS where rival wizards fight using customizable minions and spells.",
+    description: `Spawnstorm is a one-lane RTS where rival wizards battle using customizable minions and spells. Minions are assembled from different body parts, allowing players to create different builds from up to 140 minion combinations, and different 9 spells across 9 levels.
+
+The game was our final project for Game Design studies at the Open University of Israel. I handled the programming and game design, while Liza Burykina handled the art, UI, and visual design.`,
     cover: "assets/spawnstorm/cover.jpg",
     previewVideo: "assets/spawnstorm/preview.mp4",
     previewGif: "assets/spawnstorm/preview.gif",
@@ -49,7 +51,7 @@ Among my contributions were designing and implementing a dynamic Map Bounds syst
       { src: "assets/spawnstorm/05.png"},
       { src: "assets/spawnstorm/06.png", caption: "Spell selection" },
     ],
-    video: "",
+    video: "assets/spawnstorm/preview.mp4",
     links: [
       { label: "ITCH.IO", url: "https://jumper-cables.itch.io/spawnstorm" }
     ]
