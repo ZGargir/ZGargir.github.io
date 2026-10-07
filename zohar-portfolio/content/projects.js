@@ -14,11 +14,7 @@ const projects = [
     meta: "UNITY · C# · RTS · EARLY ACCESS",
     year: "",
     summary: "Unity development within an existing production codebase for an Early Access RTS.",
-    description: `Me jumping on the roguelike trend. A short roguelike inspired by Bubble Trouble and Pang, where you control a snowman who must shoot projectiles to pop bouncing, splitting bubbles, leveling up and picking from a selection of perks to get stronger each run.
-
-It was fun working within such tight constraints and scope, pushing against them with perks as far as I could without things spiraling out of hand.
-
-Hosted on the S&box platform.`,
+    description: ``,
     cover: "assets/moduwar/cover.jpg",
     previewVideo: "assets/moduwar/preview.mp4",
     previewGif: "assets/moduwar/preview.gif",
@@ -57,7 +53,11 @@ Hosted on the S&box platform.`,
     meta: "S&BOX · ARCADE SURVIVAL",
     year: "2026",
     summary: "An arcade survival game inspired by Bubble Trouble and Pang.",
-    description: ``,
+    description: `Me jumping on the roguelike trend. A short roguelike inspired by Bubble Trouble and Pang, where you control a snowman who must shoot projectiles to pop bouncing, splitting bubbles, leveling up and picking from a selection of perks to get stronger each run.
+
+It was fun working within such tight constraints and scope, pushing against them with perks as far as I could without things spiraling out of hand.
+
+Hosted on the S&box platform.`,
     cover: "assets/bubble-freezer/TitleCard.png",
     previewVideo: "assets/bubble-freezer/Preview.mp4",
     gallery: [
