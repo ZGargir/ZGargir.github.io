@@ -42,8 +42,12 @@ Among my contributions were designing and implementing a dynamic Map Bounds syst
     previewVideo: "assets/spawnstorm/preview.mp4",
     previewGif: "assets/spawnstorm/preview.gif",
     gallery: [
-      { src: "assets/spawnstorm/01.jpg", caption: "Optional screenshot caption." },
-      { src: "assets/spawnstorm/02.jpg", caption: "Optional screenshot caption." }
+      { src: "assets/spawnstorm/01.png"},
+      { src: "assets/spawnstorm/02.png", caption: "Minion customization" },
+      { src: "assets/spawnstorm/03.png"},
+      { src: "assets/spawnstorm/04.png"},
+      { src: "assets/spawnstorm/05.png"},
+      { src: "assets/spawnstorm/06.png", caption: "Spell selection" },
     ],
     video: "",
     links: [
