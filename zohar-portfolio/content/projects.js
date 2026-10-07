@@ -11,7 +11,7 @@ const projects = [
   {
     id: "moduwar",
     title: "MODUWAR",
-    meta: "UNITY · C# · RTS · EARLY ACCESS",
+    meta: "UNITY · RTS · EARLY ACCESS · BIOHEX STUDIOS",
     year: "",
     summary: "An adaptive RTS where you control a one-organism army, which I got to work on as a Unity/C# developer.",
     description: ``,
