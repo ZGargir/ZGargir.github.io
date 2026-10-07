@@ -16,8 +16,7 @@ const projects = [
     summary: "An adaptive RTS where you control a one-organism army, which I got to work on as a Unity/C# developer.",
     description: `Moduwar is an adaptive RTS by Biohex Studios where you control the Modu, splitting, merging, and growing new organs to build your army. The game launched in Early Access on Steam.
 
-Among my contributions were designing and implementing a dynamic Map Bounds system for staged level progression, extending Fog of War to handle visibility rules across the game's different gameplay entities and effects, and overhauling merge targeting to provide reliable, context-aware merge placement from different approach angles.
-`,
+Among my contributions were designing and implementing a dynamic Map Bounds system for staged level progression, extending Fog of War to handle visibility rules across the game's different gameplay entities and effects, and overhauling merge targeting to provide reliable, context-aware merge placement from different approach angles.`,
     cover: "assets/moduwar/cover.jpg",
     previewVideo: "assets/moduwar/preview.mp4",
     //previewGif: "assets/moduwar/preview.gif",
