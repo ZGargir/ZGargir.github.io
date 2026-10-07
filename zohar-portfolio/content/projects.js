@@ -61,13 +61,9 @@ const projects = [
       { src: "assets/bubble-freezer/Screenshot (2).jpg"},
       { src: "assets/bubble-freezer/Screenshot (3).jpg"},
       { src: "assets/bubble-freezer/Screenshot (4).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (5).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (6).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (7).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (8).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (9).jpg"},
+      { src: "assets/bubble-freezer/Screenshot (5).jpg"}
     ],
-    video: "",
+    video: "assets/bubble-freezer/Preview.mp4",
     links: []
   },
   {
