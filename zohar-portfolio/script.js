@@ -148,9 +148,9 @@ function openProject(id) {
       <div class="project-meta">${project.meta}${project.year ? ` · ${project.year}` : ''}</div>
     </div>
     <div class="modal-media">${modalMedia}</div>
-    ${galleryMarkup(project)}
     <div class="modal-description">${project.description.split('\n').filter(Boolean).map(p => `<p>${p}</p>`).join('')}</div>
-    ${linksMarkup(project)}
+${linksMarkup(project)}
+${galleryMarkup(project)}
   `;
 
   modal.classList.add('open');
