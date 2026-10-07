@@ -46,7 +46,7 @@ const projects = [
       { label: "ITCH.IO", url: "" }
     ]
   },
-  {
+  
      {
     id: "bubble-freezer",
     title: "BUBBLE FREEZER",
