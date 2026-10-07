@@ -15,9 +15,9 @@ const projects = [
     year: "",
     summary: "An adaptive RTS where you control a one-organism army, which I got to work on as a Unity/C# developer.",
     description: ``,
-    cover: "assets/moduwar/cover.png",
+    cover: "assets/moduwar/cover.jph",
     previewVideo: "assets/moduwar/preview.mp4",
-    previewGif: "assets/moduwar/preview.gif",
+    //previewGif: "assets/moduwar/preview.gif",
     gallery: [
       { src: "assets/moduwar/01.jpg"},
       { src: "assets/moduwar/02.jpg"},
