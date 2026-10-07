@@ -53,7 +53,7 @@ const projects = [
     year: "2026",
     summary: "An arcade survival game inspired by Bubble Trouble and Pang.",
     description: `Sample project description. Replace this with your own description of the game and your programming and gameplay work.`,
-    cover: "assets/bubble-freezer/cover.jpg",
+    cover: "assets/bubble-freezer/TitleCard.png",
     previewVideo: "assets/bubble-freezer/Preview.mp4",
     //previewGif: "assets/bubble-freezer/preview.gif",
     gallery: [
