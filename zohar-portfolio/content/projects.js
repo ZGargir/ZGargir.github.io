@@ -19,10 +19,12 @@ const projects = [
     previewVideo: "assets/moduwar/preview.mp4",
     previewGif: "assets/moduwar/preview.gif",
     gallery: [
-      { src: "assets/moduwar/01.jpg", caption: "Optional screenshot caption." },
-      { src: "assets/moduwar/02.jpg", caption: "Optional screenshot caption." }
+      { src: "assets/moduwar/01.jpg"},
+      { src: "assets/moduwar/02.jpg"},
+      { src: "assets/moduwar/03.jpg"},
+      { src: "assets/moduwar/04.jpg"}
     ],
-    video: "",
+    video: "assets/moduwar/preview.mp4",
     links: [
       { label: "STEAM", url: "https://store.steampowered.com/app/923100/Moduwar/" }
     ]
