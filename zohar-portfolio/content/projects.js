@@ -67,7 +67,7 @@ The game was our final project for Game Design studies at the Open University of
 
 It was fun working within such tight constraints and scope, pushing against them with perks as far as I could without things spiraling out of hand.
 
-Hosted on the S&box platform.`,
+Hosted on the s&box platform.`,
     cover: "assets/bubble-freezer/TitleCard.png",
     previewVideo: "assets/bubble-freezer/Preview.mp4",
     gallery: [
@@ -102,8 +102,10 @@ Hosted on the S&box platform.`,
     title: "CYCLE",
     meta: "UNITY · TURN-BASED · CARD STRATEGY",
     year: "2025",
-    summary: "A turn-based card strategy game inspired by Canaanite mythology.",
-    description: `Sample project description. Replace this with your own description of the project and your programming and gameplay work.`,
+    summary: "A card game inspired by Canaanite mythology.",
+    description: `Cycle is a card game where players build and adapt their deck as they progress through different stages. Combat centers around a simple strength/weakness system, rewarding players for building decks suited to the enemies they face.
+
+The art and stages are inspired by Canaanite mythology, a morbid fixation of mine. The game features 24 cards, 16 enemies, 4 stages, and an endless mode.`,
     cover: "assets/cycle/cover.jpg",
     previewVideo: "assets/cycle/preview.mp4",
     previewGif: "assets/cycle/preview.gif",
