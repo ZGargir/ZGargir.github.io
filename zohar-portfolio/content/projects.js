@@ -57,10 +57,10 @@ const projects = [
     cover: "assets/bubble-freezer/TitleCard.png",
     previewVideo: "assets/bubble-freezer/Preview.mp4",
     gallery: [
-      { src: "assets/bubble-freezer/Screenshot (1).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (2).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (3).jpg"},
-      { src: "assets/bubble-freezer/Screenshot (4).jpg"},
+      { src: "assets/bubble-freezer/Screeshot (1).jpg"},
+      { src: "assets/bubble-freezer/Screeshot (2).jpg"},
+      { src: "assets/bubble-freezer/Screeshot (3).jpg"},
+      { src: "assets/bubble-freezer/Screeshot (4).jpg"},
       { src: "assets/bubble-freezer/Screenshot (5).jpg"}
     ],
     video: "assets/bubble-freezer/Preview.mp4",
