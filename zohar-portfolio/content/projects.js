@@ -110,10 +110,8 @@ The art and stages are inspired by Canaanite mythology, a morbid fixation of min
     previewVideo: "assets/cycle/preview.mp4",
     previewGif: "assets/cycle/preview.gif",
     gallery: [
-      { src: "assets/cycle/01.jpg", caption: "Optional screenshot caption." },
-      { src: "assets/cycle/02.jpg", caption: "Optional screenshot caption." }
     ],
-    video: "",
+    video: "assets/cycle/preview.mp4",
     links: []
   },
   {
