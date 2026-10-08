@@ -82,17 +82,21 @@ Hosted on the s&box platform.`,
   },
   {
     id: "hot-potato",
-    title: "HOT POTATO",
+    title: "RECIPE FOR DISASTER",
     meta: "UNITY · GRID PUZZLE",
     year: "2026",
-    summary: "A grid-based puzzle game about routing a potato through chefs and obstacles.",
-    description: `Sample project description. Replace this with your own description and explain your gameplay programming and implementation work. Credit collaborators here if you want them visible in the project description.`,
+    summary: "A grid-based puzzle game about chefs throwing a hot potato through a kitchen full of hazards.",
+    description: `Recipe for Disaster is a grid-based puzzle game where players must get a hot potato from a cooking pot to a plate at the end. Players place chefs with different throwing abilities and use their skills to navigate the potato through traps and interactive kitchen hazards.
+
+The game was developed in a few days as part of a game jam. I handled gameplay programming and implementation, Noam Argov developed the grid system and level design tools, and Edo Amit handled the game and level design. Naturally, I had to make sure we had wizard chefs.`,
     cover: "assets/hot-potato/cover.jpg",
     previewVideo: "assets/hot-potato/preview.mp4",
     previewGif: "assets/hot-potato/preview.gif",
     gallery: [
-      { src: "assets/hot-potato/01.jpg", caption: "Optional screenshot caption." },
-      { src: "assets/hot-potato/02.jpg", caption: "Optional screenshot caption." }
+      { src: "assets/hot-potato/01.jpg"},
+      { src: "assets/hot-potato/02.jpg"},
+      { src: "assets/hot-potato/03.jpg"},
+      { src: "assets/hot-potato/04.jpg", caption: "Teleporting wizard chefs!" }
     ],
     video: "",
     links: []
