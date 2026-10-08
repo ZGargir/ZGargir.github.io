@@ -96,7 +96,7 @@ The game was developed in a few days as part of a game jam. I handled gameplay p
       { src: "assets/hot-potato/03.jpg"},
       { src: "assets/hot-potato/04.jpg", caption: "Teleporting wizard chefs!" }
     ],
-    video: "",
+    video: "assets/hot-potato/preview.mp4",
     links: []
   },
   {
