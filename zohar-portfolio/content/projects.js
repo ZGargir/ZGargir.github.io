@@ -121,16 +121,17 @@ The art and stages are inspired by Canaanite mythology, a morbid fixation of min
   {
     id: "rpg-combat",
     title: "RPG COMBAT",
-    meta: "UNITY · ONLINE MULTIPLAYER · RPG",
+    meta: "UNITY · MULTIPLAYER · RPG",
     year: "2023",
-    summary: "An online multiplayer turn-based RPG prototype focused on combat and character systems.",
-    description: `Sample project description. Replace this with your own description of the combat systems, character systems, gameplay programming, and AppWarp multiplayer implementation.`,
+    summary: "A turn-based RPG combat prototype.",
+    description: `A turn-based combat prototype featuring 9 characters with unique abilities and RPG-style stats. Battles have teams of three characters and support online multiplayer.`,
     cover: "assets/rpg-combat/cover.jpg",
     previewVideo: "assets/rpg-combat/preview.mp4",
     previewGif: "assets/rpg-combat/preview.gif",
     gallery: [
-      { src: "assets/rpg-combat/01.jpg", caption: "Optional screenshot caption." },
-      { src: "assets/rpg-combat/02.jpg", caption: "Optional screenshot caption." }
+      { src: "assets/rpg-combat/01.jpg"},
+      { src: "assets/rpg-combat/02.jpg"},
+      { src: "assets/rpg-combat/03.jpg"}
     ],
     video: "",
     links: []
