@@ -127,9 +127,16 @@ function videoMarkup(project) {
 }
 
 function linksMarkup(project) {
-  const links = (project.links || []).filter(link => link && link.url);
-  if (!links.length) return '';
-  return `<div class="project-links">${links.map(link => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label} ↗</a>`).join('')}</div>`;
+  const link = project.projectLink;
+  if (!link || !link.url || !link.label) return '';
+
+  return `
+    <div class="project-links">
+      <a href="${link.url}" target="_blank" rel="noopener noreferrer">
+        ${link.label} <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  `;
 }
 
 function openProject(id) {
@@ -148,7 +155,17 @@ function openProject(id) {
       <div class="project-meta">${project.meta}${project.year ? ` · ${project.year}` : ''}</div>
     </div>
     <div class="modal-media">${modalMedia}</div>
-    <div class="modal-description">${project.description.split('\n').filter(Boolean).map(p => `<p>${p}</p>`).join('')}</div>
+    ${project.descriptionHeading ? `
+  <h3 class="modal-description-heading">${project.descriptionHeading}</h3>
+` : ''}
+
+<div class="modal-description">
+  ${(project.description || '')
+    .split('\n')
+    .filter(Boolean)
+    .map(p => `<p>${p}</p>`)
+    .join('')}
+</div>
 ${linksMarkup(project)}
 ${galleryMarkup(project)}
   `;
