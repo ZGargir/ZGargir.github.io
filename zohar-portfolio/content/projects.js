@@ -25,9 +25,11 @@ const projects = [
       { src: "assets/moduwar/04.jpg"}
     ],
     video: "assets/moduwar/preview.mp4",
-    links: [
-      { label: "STEAM", url: "https://store.steampowered.com/app/923100/Moduwar/" }
-    ]
+    descriptionHeading: "MY CONTRIBUTIONS",
+projectLink: {
+  label: "PLAY ON STEAM",
+  url: "https://store.steampowered.com/app/923100/Moduwar/"
+},
   },
   {
     id: "spawnstorm",
@@ -50,9 +52,11 @@ The game was our final project for Game Design studies at the Open University of
       { src: "assets/spawnstorm/06.png", caption: "Spell selection" },
     ],
     video: "assets/spawnstorm/preview.mp4",
-    links: [
-      { label: "ITCH.IO", url: "https://jumper-cables.itch.io/spawnstorm" }
-    ]
+    descriptionHeading: "OVERVIEW",
+projectLink: {
+  label: "PLAY ON ITCH.IO",
+  url: "https://jumper-cables.itch.io/spawnstorm"
+},
   },
   
      {
@@ -63,9 +67,7 @@ The game was our final project for Game Design studies at the Open University of
     summary: "An arcade survival game inspired by Bubble Trouble and Pang.",
     description: `Me jumping on the roguelike trend. A tiny arcade shooter inspired by Bubble Trouble and Pang, where you control a snowman who must shoot projectiles to pop bouncing, splitting bubbles, leveling up and picking from a selection of perks to get stronger each run.
 
-It was fun working within such tight constraints and scope, pushing against them with perks as far as I could without things spiraling out of hand.
-
-Hosted on the s&box platform.`,
+It was fun working within such tight constraints and scope, pushing against them with perks as far as I could without things spiraling out of hand.`,
     cover: "assets/bubble-freezer/TitleCard.png",
     previewVideo: "assets/bubble-freezer/Preview.mp4",
     gallery: [
@@ -76,7 +78,11 @@ Hosted on the s&box platform.`,
       { src: "assets/bubble-freezer/Screenshot (5).jpg"}
     ],
     video: "assets/bubble-freezer/Preview.mp4",
-    links: []
+    descriptionHeading: "OVERVIEW",
+    projectLink: {
+  label: "PLAY ON S&BOX",
+  url: "http://sbox.game/jumpercables/bubblepopper"
+},   
   },
   {
     id: "hot-potato",
@@ -97,7 +103,7 @@ The game was developed in a few days as part of a game jam. I handled gameplay p
       { src: "assets/hot-potato/04.jpg", caption: "Teleporting wizard chefs!" }
     ],
     video: "assets/hot-potato/preview.mp4",
-    links: []
+    descriptionHeading: "OVERVIEW",
   },
   {
     id: "cycle",
@@ -114,7 +120,7 @@ The art and stages are inspired by Canaanite mythology, a morbid fixation of min
     gallery: [
     ],
     video: "assets/cycle/preview.mp4",
-    links: []
+    descriptionHeading: "OVERVIEW",
   },
   {
     id: "rpg-combat",
@@ -132,6 +138,6 @@ The art and stages are inspired by Canaanite mythology, a morbid fixation of min
       { src: "assets/rpg-combat/03.jpg"}
     ],
     video: "",
-    links: []
+    descriptionHeading: "OVERVIEW",
   }
 ];
