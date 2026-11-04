@@ -159,14 +159,29 @@ function openProject(id) {
   <h3 class="modal-description-heading">${project.descriptionHeading}</h3>
 ` : ''}
 
-<div class="modal-description">
-  ${(project.description || '')
-    .split('\n')
-    .filter(Boolean)
-    .map(p => `<p>${p}</p>`)
-    .join('')}
+<div class="modal-project-info">
+
+  <div class="modal-project-divider"></div>
+
+  ${project.descriptionHeading ? `
+    <h3 class="modal-description-heading">
+      ${project.descriptionHeading}
+    </h3>
+  ` : ''}
+
+  <div class="modal-description">
+    ${(project.description || '')
+      .split('\n')
+      .filter(Boolean)
+      .map(p => `<p>${p}</p>`)
+      .join('')}
+  </div>
+
+  ${linksMarkup(project)}
+
+  <div class="modal-project-divider"></div>
+
 </div>
-${linksMarkup(project)}
 ${galleryMarkup(project)}
   `;
 
