@@ -83,12 +83,64 @@ button { font: inherit; }
 .experience-item p:last-child { margin-bottom: 0; max-width: 650px; color: #4f555d; }
 
 .contact-section { min-height: 430px; }
-.contact-content { display: flex; align-items: end; justify-content: space-between; margin-top: 105px; }
-.email-link { font-size: clamp(24px, 4vw, 48px); letter-spacing: -.03em; border-bottom: 1px solid var(--line); padding-bottom: 4px; transition: color .2s ease, border-color .2s ease; }
-.email-link:hover { color: var(--blue); border-color: var(--blue); }
-.social-links { display: flex; gap: 12px; }
-.social-links a { width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid var(--line); color: #b7bdc5; font-size: 12px; font-weight: 600; transition: color .2s ease, border-color .2s ease, background .2s ease; }
-.social-links a:hover { color: white; border-color: var(--blue); background: var(--blue-soft); }
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  margin-top: 75px;
+  text-align: center;
+}
+
+.email-link {
+  font-size: clamp(24px, 4vw, 48px);
+  letter-spacing: -.03em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 4px;
+  transition: color .2s ease, border-color .2s ease;
+}
+
+.email-link:hover {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 175px;
+  padding: 16px 24px;
+  border: 1px solid var(--line);
+  color: #b7bdc5;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  transition: color .2s ease, border-color .2s ease, background .2s ease;
+}
+
+.social-links img {
+  display: block;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.social-links a:hover {
+  color: white;
+  border-color: var(--blue);
+  background: var(--blue-soft);
+}
 
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .55s ease, transform .55s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
@@ -136,8 +188,11 @@ button { font: inherit; }
   .project-info { padding: 30px 24px 34px; }
   .project-heading h2 { font-size: clamp(48px, 15vw, 70px); }
   .experience-item { grid-template-columns: 1fr; gap: 10px; }
-  .contact-content { margin-top: 75px; flex-direction: column; align-items: flex-start; gap: 35px; }
-  .modal { padding: 2vh 2vw; }
+.contact-content {
+  margin-top: 75px;
+  align-items: center;
+  gap: 30px;
+}  .modal { padding: 2vh 2vw; }
   .modal-panel { width: 96vw; height: 96vh; padding: 44px 20px 42px; }
   .modal-media { margin-top: 28px; aspect-ratio: 16 / 10; }
 }
