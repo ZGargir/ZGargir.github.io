@@ -273,6 +273,26 @@ button { font: inherit; }
 }  .modal { padding: 2vh 2vw; }
   .modal-panel { width: 96vw; height: 96vh; padding: 44px 20px 42px; }
   .modal-media { margin-top: 28px; aspect-ratio: 16 / 10; }
+    .modal-project-info {
+    padding: 36px 8px;
+  }
+
+  .modal-project-divider {
+    width: 90%;
+  }
+
+  .modal-description-heading {
+    font-size: 16px;
+  }
+
+  .modal-description {
+    font-size: 17px;
+  }
+
+  .project-links a {
+    font-size: 12px;
+    padding: 14px 22px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
