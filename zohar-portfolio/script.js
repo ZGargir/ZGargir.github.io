@@ -155,9 +155,6 @@ function openProject(id) {
       <div class="project-meta">${project.meta}${project.year ? ` · ${project.year}` : ''}</div>
     </div>
     <div class="modal-media">${modalMedia}</div>
-    ${project.descriptionHeading ? `
-  <h3 class="modal-description-heading">${project.descriptionHeading}</h3>
-` : ''}
 
 <div class="modal-project-info">
 
